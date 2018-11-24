@@ -3,6 +3,7 @@ let contentfulConfig
 
 try {
   contentfulConfig = require('./.contentful')
+  console.log('HER', contentfulConfig)
 } catch (e) {
   contentfulConfig = {
     production: {
